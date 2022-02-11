@@ -1,2 +1,2 @@
 @react.component
-let make: (~onReplayClick: unit => unit) => React.element
+let make: (~onReplayClick: unit => unit, ~onBackHomeClick: unit => unit) => React.element

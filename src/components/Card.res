@@ -23,7 +23,9 @@ let make = (~onClick, ~isSelected, ~value) => {
         ])}>
         <BsMoonStars size={28} />
       </div>
-      <div className={cx([innerCardStyle, "card-front bg-purple-50"])}> {value->React.int} </div>
+      <div className={cx([innerCardStyle, "card-front bg-purple-50 overflow-hidden"])}>
+        <img src={`/minecraft/${value->Int.toString}.png`} className="w-full absolute" />
+      </div>
     </div>
   </button>
 }
