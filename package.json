@@ -1,7 +1,7 @@
 {
   "name": "rescript-memory",
   "description": "Memory game built in ReScript",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "vite build",
